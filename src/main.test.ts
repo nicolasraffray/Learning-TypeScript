@@ -29,4 +29,8 @@ describe("fizzBuzz", () => {
   it('Takes an array with one multiple of 5', () => {
     expect(fizzBuzz([1,2,5,7,10])).toEqual("1,2,Buzz,7,Buzz")
   })
+
+  it('Takes an array with multiples of both 3 and 5', () => {
+    expect(fizzBuzz([15,3,5,2,1,8,7])).toEqual("FizzBuzz,Fizz,Buzz,2,1,8,7")
+  })
 })
