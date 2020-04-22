@@ -1,8 +1,8 @@
-import { Calculator } from "./main"
+import { fizzBuzz } from "./main"
 
-describe("Calculator", () => {
+describe("fizzBuzz", () => {
 
-  it("adds two numbers", () => {
-    
+  it("Returns a number in array", () => {
+    expect(fizzBuzz([2])).toEqual("2")
   })
 })

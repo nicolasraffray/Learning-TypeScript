@@ -1,4 +1,4 @@
 
-export class Calculator {
-  
+export function fizzBuzz(input: [number]) {
+  return "2"
 }
