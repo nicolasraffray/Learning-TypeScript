@@ -1,13 +1,12 @@
-export function fizzBuzz(input) {
-  
-  if( input.length === 1 && input[0] % 15 === 0 ){
-    var output:string = "FizzBuzz"
-  } else if(input.length === 1 && input[0] % 3 === 0){
-    var output:string = "Fizz"
-  } else if( input.length === 1 && input[0] % 5 === 0){
-    var output:string = "Buzz"
-  } else {
-    var output:string = input.toString()
-  }
-  return output
+export function fizzBuzz(input) { 
+  let output = input.map((i) => {
+    if (i % 15 === 0){
+      return "FizzBuzz"
+    } else if (i % 3 === 0){
+      return  "Fizz"
+    } else if (i % 5 === 0){
+      return  "Buzz"
+    } else { return i }
+  })
+  return output.toString()
 }

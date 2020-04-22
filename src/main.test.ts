@@ -21,4 +21,8 @@ describe("fizzBuzz", () => {
   it('Returns a FizzBuzz if number is a multiple of 3 and 5', () => {
     expect(fizzBuzz([15])).toEqual("FizzBuzz")
   })
+
+  it('Takes an array with one multiple of 3', () => {
+    expect(fizzBuzz([1,2,3,6,7])).toEqual("1,2,Fizz,Fizz,7")
+  })
 })
