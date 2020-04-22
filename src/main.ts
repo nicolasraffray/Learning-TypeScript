@@ -1,4 +1,5 @@
 
-export function fizzBuzz(input: [number]) {
-  return "2"
+export function fizzBuzz(input) {
+  return input.toString()
+  
 }
