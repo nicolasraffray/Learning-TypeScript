@@ -13,4 +13,8 @@ describe("fizzBuzz", () => {
   it("Returns a Fizz if number is multiple of 3", () => {
     expect(fizzBuzz([3])).toEqual("Fizz")
   })
+
+  it("Returns a Buzz if number is multiple of 5", () => {
+    expect(fizzBuzz([5])).toEqual("Buzz")
+  })
 })
