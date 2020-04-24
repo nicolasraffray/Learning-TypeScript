@@ -5,7 +5,7 @@ export function posSum(input){
   for(let i = 0; i < input.length; i++){
     if(input[i] > 0){
       a += input[i]
-    } else { return 0 }
+    } else { a += 0 }
   }
   return a
 }

@@ -14,5 +14,8 @@ describe("PosSum", () => {
   it("takes two positive numbers and sums them", () => {
     expect(posSum([2,5])).toEqual(7)
   })
-  
+
+  it("takes multiple positive and negative numbers but does not add negatives", () => {
+    expect(posSum([1,2,5,-2,-4])).toEqual(8)
+  })
 })
